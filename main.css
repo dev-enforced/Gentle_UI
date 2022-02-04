@@ -1,0 +1,126 @@
+@import url("style-guide/compiled-style-guide.css");
+body {
+    background-color: var(--bg-color);
+    font-family: 'Exo', sans-serif;
+    color: var(--text-color);
+}
+
+
+/* NAVBAR CSS */
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-bg);
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    box-shadow: var(--default-box-shadow-format);
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+}
+
+.nav-links .link-none:hover {
+    color: var(--primary-color-hover);
+}
+
+
+/* MAIN HERO SECTION CSS */
+
+.hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-highlight {
+    background: #c21500;
+    background: -webkit-linear-gradient(to top, var(--primary-color-hover), var(--secondary-color-hover));
+    background: linear-gradient(to top, var(--primary-color-hover), var(--secondary-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-button {
+    margin-top: 8%;
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    border: 0px;
+    border-radius: 8px;
+}
+
+.hero-button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+
+/* FOOTER RELATED CSS */
+
+footer {
+    background-color: var(--primary-bg);
+}
+
+.footer-component-contents {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 100rem;
+}
+
+.footer-navigation,
+.footer-salutations,
+.footer-invite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-btn {
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    border-radius: 10px;
+    border: 1px;
+}
+
+.footer-btn:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.social-links i {
+    font-size: calc(1.5*var(--default-font-size))
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .hero {
+        grid-template-columns: 1fr;
+    }
+    .hero-content {
+        align-items: center;
+    }
+    .hero-heading {
+        font-size: 1.5rem;
+        margin-bottom: calc(4*var(--margin));
+    }
+    .hero-text {
+        text-align: center;
+        font-size: 1.125rem;
+    }
+    .footer-component-contents {
+        grid-template-columns: 1fr;
+    }
+}
