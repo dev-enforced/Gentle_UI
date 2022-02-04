@@ -40,7 +40,7 @@ p {
 }
 
 .text-bold {
-    font-weight: bold;
+    font-weight: var(--font-bold);
 }
 
 .text-uppercase {
