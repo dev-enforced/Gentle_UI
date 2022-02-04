@@ -618,14 +618,7 @@ my-7 {
     display: flex;
 }
 
-.gentle-flex-display-justified-center {
+.gentle-flex-gap {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.gentle-flex-display-aligned-center {
-    display: flex;
-    align-items: center;
     gap: 1rem;
 }

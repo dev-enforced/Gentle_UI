@@ -22,7 +22,6 @@ body {
 
 .nav-links {
     display: flex;
-    justify-content: space-between;
     gap: 0.7rem;
 }
 
@@ -45,7 +44,7 @@ body {
 }
 
 .hero-highlight {
-    background: #c21500;
+    background: var(--highlight-background);
     background: -webkit-linear-gradient(to top, var(--primary-color-hover), var(--secondary-color-hover));
     background: linear-gradient(to top, var(--primary-color-hover), var(--secondary-color));
     background-clip: text;
@@ -75,7 +74,7 @@ footer {
 .footer-component-contents {
     display: grid;
     grid-template-columns: 50% 50%;
-    max-width: 100rem;
+    max-width: 100%;
 }
 
 .footer-navigation,
