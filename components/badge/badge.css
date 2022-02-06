@@ -1,0 +1,51 @@
+@import url("../../style-guide/compiled-style-guide.css");
+@import url("../avatar/avatar.css");
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: 'Exo', sans-serif;
+}
+
+.gentle-flex {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-end;
+}
+
+.badge {
+    position: relative;
+}
+
+.badge-number {
+    position: absolute;
+    right: -0.8rem;
+    top: -0.6rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    background-color: var(--primary-color-hover);
+    color: var(--text-color);
+    border-radius: var(--border-rd-circle);
+}
+
+.badge-online,
+.badge-offline,
+.badge-dnd {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    bottom: 0.5rem;
+    right: -0.2rem;
+    border-radius: var(--border-rd-circle);
+}
+
+.badge-online {
+    background-color: var(--badge-online);
+}
+
+.badge-offline {
+    background-color: var(--badge-offline);
+}
+
+.badge-dnd {
+    background-color: var(--badge-dnd);
+}
