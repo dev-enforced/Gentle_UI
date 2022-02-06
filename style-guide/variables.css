@@ -28,6 +28,11 @@
     --dark-indicator: #282828;
     --dark-grey: #999999;
     --default-box-shadow-format: 0 0 7px -4px #E6EEC5;
+    /* BORDER RADIUS VALUES */
+    --border-rd-sm: 5px;
+    --border-rd-md: 10px;
+    --border-rd-lg: 15px;
+    --border-rd-circle: 50%;
 }
 
 html {

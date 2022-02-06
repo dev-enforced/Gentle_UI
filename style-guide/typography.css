@@ -85,3 +85,23 @@ h5,
 h6 {
     overflow-wrap: break-word;
 }
+
+.txt-xl {
+    font-size: calc(5*var(--default-font-size));
+}
+
+.txt-lg {
+    font-size: calc(4*var(--default-font-size));
+}
+
+.txt-md {
+    font-size: calc(3*var(--default-font-size));
+}
+
+.txt-sm {
+    font-size: calc(2*var(--default-font-size));
+}
+
+.txt-xs {
+    font-size: calc(1*var(--default-font-size));
+}
