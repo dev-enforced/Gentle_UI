@@ -12,7 +12,6 @@ body {
 }
 
 .avatar {
-    margin: calc(4*var(--margin));
     display: flex;
     justify-content: center;
     align-items: center;
