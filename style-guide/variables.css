@@ -33,6 +33,10 @@
     --border-rd-md: 10px;
     --border-rd-lg: 15px;
     --border-rd-circle: 50%;
+    /* BADGE-STATUS BACKGROUNDS */
+    --badge-online: limegreen;
+    --badge-offline: #9a9e9e;
+    --badge-dnd: #f05f0c;
 }
 
 html {
