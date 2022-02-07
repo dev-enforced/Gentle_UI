@@ -24,7 +24,8 @@
     --warning-bg: #E9F862;
     --info-indicator: #6ECBED;
     --info-bg: #10617F;
-    --error-indicator: #FF7D3A;
+    --error-indicator: #bd460a;
+    --error-bg: #be650a;
     --dark-indicator: #282828;
     --dark-grey: #999999;
     --default-box-shadow-format: 0 0 7px -4px #E6EEC5;
@@ -37,6 +38,8 @@
     --badge-online: limegreen;
     --badge-offline: #9a9e9e;
     --badge-dnd: #f05f0c;
+    /* ALERT BORDER STANDARD */
+    --alert-border-format: 2px solid transparent;
 }
 
 html {
