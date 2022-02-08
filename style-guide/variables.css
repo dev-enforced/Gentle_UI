@@ -13,19 +13,26 @@
     --primary-bg: #54123b;
     --primary-color-hover: #B92781;
     --highlight-background: #c21500;
-    --secondary-color: #cc6d29;
+    --secondary-color: #db742b;
     --secondary-bg: #E6DDC4;
+    --secondary-color-hover:#cd5e24;
     --bg-color: #181D31;
     --text-color: #F0E9D2;
+    --bg-white:#ffafaf;
+    --bg-black:#090902;
     /* VARIANT THEMES */
     --success-indicator: #616F39;
-    --success-bg: #CBD5AE;
+    --success-bg: #605F40;
+    --success-hover-color:#525008;
     --warning-indicator: #DDF516;
     --warning-bg: #E9F862;
+    --warning-hover-color:#DEF420;
     --info-indicator: #6ECBED;
     --info-bg: #10617F;
+    --info-hover-color:#17108F;
     --error-indicator: #bd460a;
     --error-bg: #be650a;
+    --error-hover-color:#bf410e;
     --dark-indicator: #282828;
     --dark-grey: #999999;
     --default-box-shadow-format: 0 0 7px -4px #E6EEC5;
