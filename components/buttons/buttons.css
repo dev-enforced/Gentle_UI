@@ -7,7 +7,7 @@ body {
 
 .component-container {
     display: flex;
-    margin: 10.1px;
+    margin: 10px;
     gap: 1rem;
     align-items: center;
     flex-wrap: wrap;
