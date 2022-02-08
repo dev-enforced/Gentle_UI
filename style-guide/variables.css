@@ -47,6 +47,7 @@
     --badge-dnd: #f05f0c;
     /* ALERT BORDER STANDARD */
     --alert-border-format: 2px solid transparent;
+    --default-outline-format:1px solid transparent;
 }
 
 html {
