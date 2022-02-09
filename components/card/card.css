@@ -95,13 +95,14 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-.card-wish-action {
+.card-icon-action {
   color: var(--text-color);
   font-size: 1.2rem;
   margin-left: auto ;
 }
 .wish-icon {
   cursor: pointer;
+  padding: 0.6rem;
 }
 .wish-icon:hover {
   color: var(--primary-color);
