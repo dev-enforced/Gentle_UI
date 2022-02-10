@@ -71,7 +71,8 @@ body {
 }
 
 .gentle-outlined-input::placeholder,
-.gentle-search-bar::placeholder {
+.gentle-search-bar::placeholder,
+.gentle-textarea-container .gentle-outlined-input::placeholder {
   color: var(--primary-color);
   transition: 0.5s color ease;
   font-size: 0.8rem;
@@ -79,7 +80,8 @@ body {
 }
 
 .gentle-search-bar:focus::placeholder,
-.gentle-outlined-input:focus::placeholder {
+.gentle-outlined-input:focus::placeholder,
+.gentle-textarea-container .gentle-outlined-input:focus::placeholder {
   color: transparent;
 }
 
