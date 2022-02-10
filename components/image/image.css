@@ -1,0 +1,29 @@
+@import url("../../style-guide/compiled-style-guide.css");
+body {
+  background-color: var(--bg-white);
+  font-family: "Exo", sans-serif;
+}
+
+.txt-highlight {
+  color: var(--primary-color);
+}
+
+.component-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--primary-bg);
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.img-round{
+    border-radius:var(--border-rd-circle);
+    object-fit: contain;
+}
+.img-square{
+    border-radius:var(--border-rd-md)
+}
