@@ -18,7 +18,6 @@ body {
 .img-responsive{
     max-width: 100%;
     height: auto;
-    overflow: hidden;
 }
 .img-round{
     border-radius:var(--border-rd-circle);
