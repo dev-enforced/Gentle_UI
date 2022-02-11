@@ -11,7 +11,6 @@ body{
 }
 .component-container{
     background-color: var(--secondary-color);
-    padding:2rem;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -31,7 +30,7 @@ body{
 }
 
 .gentle-grid-responsive{
-    grid-template-columns: repeat(auto-fit,minmax(16em,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(20em,1fr));
     place-items: center;
 }
 .gentle-grid-3-col{
