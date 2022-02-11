@@ -17,7 +17,8 @@ body{
     align-items: start;
 }
 .gentle-grid-2-col,
-.gentle-grid-3-col{
+.gentle-grid-3-col,
+.gentle-grid-responsive{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap:1rem;
@@ -30,10 +31,7 @@ body{
 }
 
 .gentle-grid-responsive{
-    display: grid;
     grid-template-columns: repeat(auto-fit,minmax(16em,1fr));
-    gap: 1rem;
-    width: 100%;
     place-items: center;
 }
 .gentle-grid-3-col{
