@@ -1,0 +1,38 @@
+@import url("../../style-guide/compiled-style-guide.css");
+@import url("../card/card.css");
+
+body{
+    background-color: var(--bg-white);
+    font-family: "Exo", sans-serif;
+}
+    
+.txt-highlight {
+    color: var(--primary-color);
+}
+.component-container{
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.gentle-grid-2-col,
+.gentle-grid-3-col,
+.gentle-grid-responsive{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    width: 100%;
+}
+.gentle-grid-item{
+    background-color: var(--secondary-bg);
+    color: var(--bg-black);
+    height:5rem;
+}
+
+.gentle-grid-responsive{
+    grid-template-columns: repeat(auto-fit,minmax(20em,1fr));
+    place-items: center;
+}
+.gentle-grid-3-col{
+    grid-template-columns: repeat(3,1fr);
+}
