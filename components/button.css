@@ -1,20 +1,3 @@
-@import url(../../style-guide/compiled-style-guide.css);
-body {
-    background-color: var(--bg-color);
-    
-    font-family: 'Exo', sans-serif;
-}
-
-.component-container {
-    display: flex;
-    margin: 10px;
-    gap: 1rem;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.txt-highlight{
-    color: var(--primary-color);
-}
 .btn {
     outline: var(--default-outline-format);
     border: none;
