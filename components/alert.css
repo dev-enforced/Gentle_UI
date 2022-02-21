@@ -1,0 +1,39 @@
+.alert,
+.alert-dismissable {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: var(--alert-border-format);
+  background-color: var(--primary-bg);
+  font-size: calc(1.5 * var(--default-font-size));
+}
+
+.alert-primary {
+  color: var(--primary-color);
+  border-color: var(--bg-color);
+}
+
+.alert-success {
+  color: var(--success-indicator);
+  border-color: var(--success-bg);
+}
+
+.alert-warning {
+  color: var(--warning-indicator);
+  border-color: var(--warning-bg);
+}
+
+.alert-error {
+  color: var(--error-indicator);
+  border-color: var(--error-bg);
+}
+
+.alert-info {
+  color: var(--info-indicator);
+  border: 2px solid var(--info-bg);
+}
+
+.alert-dismissable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

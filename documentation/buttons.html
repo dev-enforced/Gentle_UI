@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Roshan J" />
+    <meta
+      name="description"
+      content="Gentle UI is a component library having pre built components with the motive of creating good UIs."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="../gentle-imports.css" />
+    <link rel="stylesheet" href="documentation.css" />
+    <link rel="icon" href="https://img.icons8.com/stickers/100/000000/g.png " />
+    <title>Buttons | Gentle UI</title>
+  </head>
+
+  <body>
+    <div class="documentation-layout mx-1">
+      <div class="navbar p-4">
+        <div class="nav-left p-4">
+          <img src="https://img.icons8.com/stickers/60/000000/g.png" />
+          <h5><a href="../index.html" class="link-none">Gentle UI</a></h5>
+        </div>
+
+        <ul class="nav-right p-4">
+          <li>
+            <a href="../index.html" class="link-none">HOME</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/dev-enforced/Gentle_UI"
+              class="link-none"
+            >
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar p-6">
+        <h4 class="text-bold">COMPONENTS</h4>
+        <ul class="sidebar-components">
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="alerts.html">ALERT</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="avatars.html">AVATARS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="badges.html">BADGES</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="buttons.html">BUTTONS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="cards.html">CARDS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="grids.html">GRIDS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="images.html">IMAGES</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="inputs.html">INPUT</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="lists.html">LISTS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="navigation.html">NAVIGATION</a></h6>
+          </li>
+        </ul>
+      </div>
+      <div class="main-content p-5">
+        <div class="component-details">
+          <h3 class="text-bold mb-5">BUTTONS</h3>
+          <p class="txt-xsm mb-5">
+            Buttons are used in almost every website in forms, toolbars,
+            homepages, dialog boxes. If the user has to do an action or submit
+            data to the server, a button is used to initiate the action.
+          </p>
+          <h5 class="mb-4">COMPONENT DEMO</h5>
+          <p class="txt-sm">Normal Buttons</p>
+          <div class="component-demonstration">
+            <!-- NORMAL BUTTON -->
+            <button class="btn">START</button>
+
+            <!-- DARK THEME BUTTON -->
+            <button class="btn btn-dark">DARK BUTTON</button>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Fbuttons.html%23L94-L98&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+          <p class="txt-sm">COLORFUL BUTTONS</p>
+          <div class="component-demonstration">
+            <!-- PRIMARY BUTTON COMPONENT -->
+            <!-- Here in documentation it might be looking without a background
+            because the background color of button and the container is matching -->
+
+            <button class="btn btn-primary">PRIMARY BUTTON</button>
+
+            <!-- SECONDARY BUTTON COMPONENT -->
+            <button class="btn btn-secondary">SECONDARY BUTTON</button>
+
+            <!-- ERROR BUTTON COMPONENT -->
+            <button class="btn btn-error">ERROR</button>
+
+            <!-- WARNING BUTTON COMPONENT -->
+            <button class="btn btn-warning">WARNING</button>
+
+            <!-- SUCCESS BUTTON COMPONENT -->
+            <button class="btn btn-success">SUCCESS</button>
+
+            <!-- INFO BUTTON COMPONENT -->
+            <button class="btn btn-info">INFO</button>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Fbuttons.html%23L105-L124&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+          <p class="txt-sm">BUTTONS WITH COLORS ON HOVER</p>
+          <div class="component-demonstration">
+            <!-- PRIMARY BUTTON WITH DIFFERENT COLOR WHEN MOUSE IS PLACED ON IT -->
+            <button class="btn btn-primary btn-primary-hover">
+              PRIMARY BUTTON
+            </button>
+
+            <!-- SECONDARY BUTTON WITH DIFFERENT COLOR
+                         WHEN MOUSE IS PLACED ON IT -->
+            <button class="btn btn-secondary btn-secondary-hover">
+              SECONDARY BUTTON
+            </button>
+
+            <!-- ERROR BUTTON WITH DIFFERENT COLOR
+                         WHEN MOUSE IS PLACED ON IT -->
+            <button class="btn btn-error btn-error-hover">ERROR</button>
+
+            <!-- WARNING BUTTON WITH DIFFERENT COLOR 
+                        WHEN MOUSE IS PLACED ON IT -->
+            <button class="btn btn-warning btn-warning-hover">WARNING</button>
+
+            <!-- SUCCESS BUTTON WITH DIFFERENT COLOR
+                         WHEN MOUSE IS PLACED ON IT -->
+            <button class="btn btn-success btn-success-hover">SUCCESS</button>
+
+            <!-- INFO BUTTON WITH DIFFERENT COLOR 
+                        WHEN MOUSE IS PLACED ON IT -->
+            <button class="btn btn-info btn-info-hover">INFO</button>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Fbuttons.html%23L131-L156&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+          <p class="txt-sm">BUTTONS WITH ICONS AND HOVER COLORS</p>
+          <div class="component-demonstration">
+            <!-- PRIMARY BUTTONS WITH ICONS
+                    AND A DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-primary btn-primary-hover">
+              <span>
+                <i class="fas fa-home fa-2x px-3"></i>
+                PRIMARY BUTTON
+              </span>
+            </button>
+
+            <!-- SECONDARY BUTTONS WITH ICONS
+                    AND A DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-secondary btn-secondary-hover">
+              <span>
+                <i class="fab fa-searchengin fa-2x px-3"></i>
+                SECONDARY BUTTON
+              </span>
+            </button>
+
+            <!-- ERROR BUTTONS WITH ICONS
+                    AND A DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-error btn-error-hover">
+              <span>
+                <i class="fas fa-exclamation-triangle px-3 fa-2x"></i>
+                ERROR
+              </span>
+            </button>
+
+            <!-- WARNING BUTTONS WITH ICONS
+                    AND A DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-warning btn-warning-hover">
+              <span>
+                <i class="fas fa-exclamation fa-2x px-3"></i>
+                WARNING
+              </span>
+            </button>
+
+            <!-- SUCCESS BUTTONS WITH ICONS
+                    AND A DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-success btn-success-hover">
+              <span>
+                <i class="fas fa-check fa-2x px-3"></i>
+                SUCCESS
+              </span>
+            </button>
+
+            <!-- INFO BUTTONS WITH ICONS
+                    AND A DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-info btn-info-hover">
+              <span>
+                <i class="fas fa-info-circle fa-2x px-3"></i>
+                INFO
+              </span>
+            </button>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Fbuttons.html%23L163-L221&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+          <p class="txt-sm">ICON BUTTONS</p>
+          <div class="component-demonstration">
+            <!-- ONLY PRIMARY ICON BUTTONS 
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-primary btn-primary-hover">
+              <span>
+                <i class="fas fa-home fa-2x px-3"></i>
+              </span>
+            </button>
+
+            <!-- ONLY SECONDARY ICON BUTTONS 
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-secondary btn-secondary-hover">
+              <span>
+                <i class="fab fa-searchengin fa-2x px-3"></i>
+              </span>
+            </button>
+
+            <!-- ONLY ERROR ICON BUTTONS 
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-error btn-error-hover">
+              <span>
+                <i class="fas fa-exclamation-triangle px-3 fa-2x"></i>
+              </span>
+            </button>
+
+            <!-- ONLY WARNING ICON BUTTONS 
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-warning btn-warning-hover">
+              <span>
+                <i class="fas fa-exclamation fa-2x px-3"></i>
+              </span>
+            </button>
+
+            <!-- ONLY SUCCESS ICON BUTTONS 
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-success btn-success-hover">
+              <span>
+                <i class="fas fa-check fa-2x px-3"></i>
+              </span>
+            </button>
+
+            <!-- ONLY INFO ICON BUTTONS 
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-icon btn-info btn-info-hover">
+              <span>
+                <i class="fas fa-info-circle fa-2x px-3"></i>
+              </span>
+            </button>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Fbuttons.html%23L228-L280&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+          <p class="txt-sm">LINKS AS BUTTONS WITH HOVER</p>
+          <div class="component-demonstration">
+            <!-- PRIMARY LINK BUTTON COMPONENT
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-primary-hover btn-link">
+              <a href="#" class="link-none"> PRIMARY LINK BUTTON </a>
+            </button>
+
+            <!-- SECONDARY LINK BUTTON COMPONENT 
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT-->
+            <button class="btn btn-secondary-hover btn-link">
+              <a href="#" class="link-none"> SECONDARY LINK BUTTON </a>
+            </button>
+
+            <!-- SUCCESS LINK BUTTON COMPONENT
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-success-hover btn-link">
+              <a href="#" class="link-none"> SUCCESS LINK BUTTON </a>
+            </button>
+
+            <!-- WARNING LINK BUTTON COMPONENT 
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT-->
+            <button class="btn btn-warning-hover btn-link">
+              <a href="#" class="link-none"> WARNING LINK BUTTON </a>
+            </button>
+
+            <!-- ERROR LINK BUTTON COMPONENT
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-error-hover btn-link">
+              <a href="#" class="link-none"> ERROR LINK BUTTON </a>
+            </button>
+
+            <!-- INFO LINK BUTTON COMPONENT
+                    WITH DIFFERENT COLOR WHEN MOUSE 
+                    IS PLACED ON IT -->
+            <button class="btn btn-info-hover btn-link">
+              <a href="#" class="link-none">INFO LINK BUTTON</a>
+            </button>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Fbuttons.html%23L287-L327&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+          <p class="txt-sm">DISABLED BUTTON</p>
+          <div class="component-demonstration">
+            <!-- DISABLED BUTTON COMPONENT -->
+            <button class="btn btn-disabled">DISABLED</button>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Fbuttons.html%23L334-L335&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

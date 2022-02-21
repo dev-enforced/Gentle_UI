@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Roshan J" />
+    <meta
+      name="description"
+      content="Gentle UI is a component library having pre built components with the motive of creating good UIs."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="../gentle-imports.css" />
+    <link rel="stylesheet" href="documentation.css" />
+    <link rel="icon" href="https://img.icons8.com/stickers/100/000000/g.png " />
+    <title>Navigation | Gentle UI</title>
+  </head>
+  <body>
+    <div class="documentation-layout mx-1">
+      <div class="navbar p-4">
+        <div class="nav-left p-4">
+          <img src="https://img.icons8.com/stickers/60/000000/g.png" />
+          <h5><a href="../index.html" class="link-none">Gentle UI</a></h5>
+        </div>
+
+        <ul class="nav-right p-4">
+          <li>
+            <a href="../index.html" class="link-none">HOME</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/dev-enforced/Gentle_UI"
+              class="link-none"
+            >
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar p-6">
+        <h4 class="text-bold">COMPONENTS</h4>
+        <ul class="sidebar-components">
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="alerts.html">ALERT</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="avatars.html">AVATARS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="badges.html">BADGES</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="buttons.html">BUTTONS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="cards.html">CARDS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="grids.html">GRIDS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="images.html">IMAGES</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="inputs.html">INPUT</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="lists.html">LISTS</a></h6>
+          </li>
+          <li class="p-2 my-2">
+            <h6><a class="link-none" href="navigation.html">NAVIGATION</a></h6>
+          </li>
+        </ul>
+      </div>
+      <div class="main-content p-5">
+        <div class="component-details">
+          <h3 class="text-bold mb-5">NAVIGATION</h3>
+          <p class="txt-xsm mb-5">
+            Navigation is necessary in ensuring that your website is accessible
+            and usable. Good navigation will allow visitors to search your site
+            for longer, giving them confidence in where they are and what they
+            can receive from your website. Navigation allows visitors to search
+            with ease. Hydrogen provides reponsive navigation that you can use
+            in your e-commerce website.
+          </p>
+          <h5 class="mb-4">COMPONENT DEMO:</h5>
+          <p class="txt-sm">RESPONSIVE NAVIGATION</p>
+          <div class="component-demonstration">
+            <!-- RESPONSIVE NAVBAR -->
+            <nav class="gentle-navbar">
+              <div class="brand">
+                <img
+                  src="https://powertrain-ui.netlify.app/assets/favicon.ico"
+                  alt="brand description"
+                  class="brand-icon"
+                />
+                <h6 class="txt-highlight">BRAND</h6>
+              </div>
+              <div class="gentle-search-group gentle-navbar-search">
+                <i class="fas fa-search search-icon"></i>
+                <input
+                  type="search"
+                  class="gentle-search-bar"
+                  placeholder="Search-for-products"
+                />
+              </div>
+              <ul class="gentle-nav-links">
+                <button class="btn nav-icon">
+                  <i class="fas fa-user"></i>
+                </button>
+                <div class="badge mx-2">
+                  <i class="fas fa-cart-plus fa-2x"></i>
+                  <div class="badge-number gentle-flex-center">
+                    <span>4</span>
+                  </div>
+                </div>
+              </ul>
+            </nav>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fnavigation.html%23L96-L125&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+          <p class="txt-sm">RESPONSIVE NAVIGATION WITH HAMBURGER ON MOBILES</p>
+          <div class="component-demonstration">
+            <!-- RESPONSIVE NAVBAR WITH HAMBURGER -->
+            <nav class="gentle-navbar gentle-responsive-navbar">
+              <section class="navbar-toggle">
+                <div class="brand">
+                  <img
+                    src="https://powertrain-ui.netlify.app/assets/favicon.ico"
+                    alt="brand description"
+                    class="brand-icon"
+                  />
+                  <h6 class="txt-highlight">BRAND</h6>
+                </div>
+                <button class="navbar-toggle-btn" id="navbar-hamburger">
+                  <i class="fas fa-bars"></i>
+                </button>
+              </section>
+              <div class="gentle-search-group gentle-navbar-search">
+                <i class="fas fa-search search-icon"></i>
+                <input
+                  type="search"
+                  class="gentle-search-bar"
+                  placeholder="Search-for-products"
+                />
+              </div>
+              <ul class="gentle-nav-links">
+                <button class="btn nav-icon">
+                  <i class="fas fa-user"></i>
+                </button>
+                <div class="badge mx-2">
+                  <i class="fas fa-cart-plus fa-2x"></i>
+                  <div class="badge-number gentle-flex-center">
+                    <span>4</span>
+                  </div>
+                </div>
+              </ul>
+            </nav>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fnavigation.html%23L132-L166&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+          <p class="txt-sm">Javascript Code for hamburger navigation:</p>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fnavigation.html%23L178-L186&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const resposiveNavbarToggle = document.querySelector("#navbar-hamburger");
+      const navbarResponsive = document.querySelector(
+        ".gentle-navbar.gentle-responsive-navbar"
+      );
+      resposiveNavbarToggle.addEventListener("click", () => {
+        navbarResponsive.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

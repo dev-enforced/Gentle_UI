@@ -1,0 +1,17 @@
+.sidebar {
+  background-color: var(--secondary-bg);
+  color: var(--secondary-color);
+}
+
+.sidebar-components {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-components {
+    flex-flow: row wrap;
+  }
+}

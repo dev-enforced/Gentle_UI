@@ -1,24 +1,3 @@
-@import url("../../style-guide/compiled-style-guide.css");
-@import url("../badge/badge.css");
-@import url("../input/input.css");
-@import url("../buttons/buttons.css");
-body {
-  background-color: var(--bg-color);
-  font-family: "Exo", sans-serif;
-}
-
-.txt-highlight {
-  color: var(--primary-color);
-}
-
-.component-container {
-  background-color: var(--secondary-color);
-  padding: 2rem;
-  display: flex;
-  justify-content: start;
-  align-items: start;
-}
-
 .gentle-navbar {
   display: flex;
   justify-content: space-between;
@@ -30,22 +9,27 @@ body {
   height: 4.2rem;
   border-radius: 0 0 var(--border-rd-sm) var(--border-rd-sm);
 }
+
 .brand {
   display: flex;
   align-items: center;
 }
+
 .brand-icon {
   height: 2rem;
   margin-right: 0.3rem;
 }
+
 .gentle-navbar .gentle-navbar-search {
   margin-top: 1.6rem;
   width: 40%;
 }
+
 .gentle-nav-links {
   display: flex;
   align-items: center;
 }
+
 .nav-icon {
   display: inline-flex;
   align-items: center;
@@ -59,10 +43,12 @@ body {
     height: auto;
     gap: 5px;
   }
+
   .gentle-navbar .gentle-navbar-search {
     width: 100%;
     margin-top: 1rem;
   }
+  
   .gentle-navbar .gentle-nav-links {
     width: 100%;
     margin: auto;
