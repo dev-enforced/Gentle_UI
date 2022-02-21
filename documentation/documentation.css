@@ -2,67 +2,79 @@
 @import url("../components/doc-sidebar.css");
 
 .documentation-layout {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-areas: 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
     "nav nav nav nav"
     "aside main main main"
     "footer footer footer footer";
-    font-family: 'Exo',sans-serif;    
-}
-.navbar{
-    grid-area:nav;
-}
-.sidebar{
-    grid-area: aside;
-}
-.main-content{
-    grid-area: main;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-}
-.component-info{
-    font-size: calc(2*var(--default-font-size));   
-}
-.component-demonstration,.component-demonstration-column{
-    display: flex;
-    background-color: var(--primary-bg);
-    align-items: flex-end;
-    color:var(--primary-color);
-    padding: 2rem;
-    gap: 1rem;
-}
-.component-demonstration-column{
-    flex-direction: column;
-    padding: 2rem;
-    gap: 1rem;
-    background-color: var(--primary-color);
+  font-family: "Exo", sans-serif;
 }
 
-.card-demo{
-    background-color: var(--bg-black);
-    justify-content: center;
+.navbar {
+  grid-area: nav;
 }
-.input-demo{
-    background-color:var(--bg-black);
+
+.sidebar {
+  grid-area: aside;
 }
-@media screen and (max-width:768px) {
-    .documentation-layout{
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "nav"
-        "aside"
-        "main"
-        "footer";
-    }
-    .component-demonstration{
-        flex-direction: column;
-        align-items: center;
-    }
-    .image-demo{
-        align-items: flex-start;
-    }
-    .code-demonstration{
-        max-width: 25rem;
-    }
+
+.main-content {
+  grid-area: main;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.component-info {
+  font-size: calc(2 * var(--default-font-size));
+}
+
+.component-demonstration,
+.component-demonstration-column {
+  display: flex;
+  background-color: var(--primary-bg);
+  align-items: flex-end;
+  color: var(--primary-color);
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.component-demonstration-column {
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: var(--primary-color);
+}
+
+.card-demo {
+  background-color: var(--bg-black);
+  justify-content: center;
+}
+
+.input-demo {
+  background-color: var(--bg-black);
+}
+
+@media screen and (max-width: 768px) {
+  .documentation-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "nav"
+      "aside"
+      "main"
+      "footer";
+  }
+
+  .component-demonstration {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-demo {
+    align-items: flex-start;
+  }
+
+  .code-demonstration {
+    max-width: 25rem;
+  }
 }

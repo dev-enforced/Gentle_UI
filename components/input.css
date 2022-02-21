@@ -135,13 +135,13 @@
   position: absolute;
   bottom: -2rem;
 }
-.gentle-outlined-input-container.gentle-textarea-container{
-    height: fit-content;
-    padding-bottom: 0;
+.gentle-outlined-input-container.gentle-textarea-container {
+  height: fit-content;
+  padding-bottom: 0;
 }
-.gentle-textarea-container .gentle-outlined-input{
-    position: static;
-    width: 100%;
-    margin-bottom: 0;
-    padding-top: 0.8rem;
+.gentle-textarea-container .gentle-outlined-input {
+  position: static;
+  width: 100%;
+  margin-bottom: 0;
+  padding-top: 0.8rem;
 }
