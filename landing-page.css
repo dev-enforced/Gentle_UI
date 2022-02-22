@@ -16,8 +16,11 @@
   align-items: center;
   padding: 0.7rem;
   flex-wrap: wrap;
-  color: var(--landing-page-nav-links-color);
-  box-shadow: 17px 22px 23px 1px rgb(34, 219, 175);
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  /* Keeping these lines of code because I want to rectify them later */
+  /* color: var(--landing-page-nav-links-color); */
+  /* box-shadow: 10px 5px 1px rgb(0,0,24); */
   width: 100%;
 }
 

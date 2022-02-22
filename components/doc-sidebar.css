@@ -1,6 +1,6 @@
 .sidebar {
-  background-color: var(--secondary-bg);
-  color: var(--secondary-color);
+  background-color: var(--primary-bg);
+  color: var(--text-color);
 }
 
 .sidebar-components {
@@ -8,6 +8,12 @@
   flex-flow: column wrap;
   gap: 1rem;
   align-items: center;
+}
+
+.sidebar-components li:hover{
+  border-bottom: var(--alert-border-format);
+  border-bottom-color:var(--primary-color) ;
+  
 }
 
 @media screen and (max-width: 768px) {
