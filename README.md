@@ -2,14 +2,14 @@
 
 # Gentle UI
 
-Component Library built using HTML/CSS.
+Library of components developed using HTML/CSS.
 The website is responsive and can be accessed using devices of various screen sizes.
 
 ---
 
 ## Quick Start
 
-To start using the components in your project: Copy paste the stylesheet `<link>` into your head before all other stylesheets to load CSS
+To start using the components in your project: Copy paste the stylesheet `<link>` into your head before all other stylesheets to load CSS.
 
 
 HTML
@@ -48,10 +48,10 @@ CSS
 - [Badges](https://gentle-ui.netlify.app/documentation/badges.html)
 - [Buttons](https://gentle-ui.netlify.app/documentation/badges.html)
 - [Cards](https://gentle-ui.netlify.app/documentation/cards.html)
-- [Grid](https://gentle-ui.netlify.app/documentation/images.html)
+- [Grid](https://gentle-ui.netlify.app/documentation/grids.html)
 - [Image](https://gentle-ui.netlify.app/documentation/images.html)
-- [Input](https://gentle-ui.netlify.app/documentation/images.html)
-- [Lists](https://gentle-ui.netlify.app/documentation/images.html)
-- [Navigation](https://gentle-ui.netlify.app/documentation/images.html)
+- [Input](https://gentle-ui.netlify.app/documentation/inputs.html)
+- [Lists](https://gentle-ui.netlify.app/documentation/lists.html)
+- [Navigation](https://gentle-ui.netlify.app/documentation/navigation.html)
 
 
