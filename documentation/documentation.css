@@ -46,6 +46,11 @@
   background-color: var(--primary-color);
 }
 
+.text-wrapper{
+  align-items: stretch;
+  background-color: var(--primary-bg);
+}
+
 .card-demo {
   background-color: var(--bg-black);
   justify-content: center;
