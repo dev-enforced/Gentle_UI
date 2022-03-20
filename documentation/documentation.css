@@ -46,7 +46,7 @@
   background-color: var(--primary-color);
 }
 
-.text-wrapper{
+.text-wrapper {
   align-items: stretch;
   background-color: var(--primary-bg);
 }
@@ -58,6 +58,14 @@
 
 .input-demo {
   background-color: var(--bg-black);
+}
+
+.component-demonstration .gentle-modal-container {
+  position: relative;
+  background-color: transparent;
+  display: block;
+  z-index: unset;
+  max-width: 500px;
 }
 
 @media screen and (max-width: 768px) {

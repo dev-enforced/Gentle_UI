@@ -48,6 +48,8 @@
   /* ALERT BORDER STANDARD */
   --alert-border-format: 2px solid transparent;
   --default-outline-format: 1px solid transparent;
+  /* MODAL SETTINGS */
+  --modal-overlay:rgba(0,0,0,0.65);
 }
 
 html {
