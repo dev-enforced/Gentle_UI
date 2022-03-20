@@ -1,255 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Roshan J" />
-    <meta
-      name="description"
-      content="Gentle UI is a component library having pre built components with the motive of creating good UIs."
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500;600;700&display=swap"
-    />
-    <link rel="stylesheet" href="../gentle-imports.css" />
-    <link rel="stylesheet" href="documentation.css" />
-    <link rel="icon" href="https://img.icons8.com/stickers/100/000000/g.png " />
-    <title>Alerts | Gentle UI</title>
-  </head>
 
-  <body>
-    <div class="documentation-layout">
-      <div class="navbar p-4">
-        <div class="nav-left p-4">
-          <img src="https://img.icons8.com/stickers/60/000000/g.png" />
-          <h5><a href="../index.html" class="link-none">Gentle UI</a></h5>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Roshan J" />
+  <meta name="description"
+    content="Gentle UI is a component library having pre built components with the motive of creating good UIs." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500;600;700&display=swap" />
+  <link rel="stylesheet" href="../gentle-imports.css" />
+  <link rel="stylesheet" href="documentation.css" />
+  <link rel="icon" href="https://img.icons8.com/stickers/100/000000/g.png " />
+  <title>Alerts | Gentle UI</title>
+</head>
+
+<body>
+  <div class="documentation-layout">
+    <div class="navbar p-4">
+      <div class="nav-left p-4">
+        <img src="https://img.icons8.com/stickers/60/000000/g.png" />
+        <h5><a href="../index.html" class="link-none">Gentle UI</a></h5>
+      </div>
+
+      <ul class="nav-right p-4">
+        <li>
+          <a href="../index.html" class="link-none">HOME</a>
+        </li>
+        <li>
+          <a href="https://github.com/dev-enforced/Gentle_UI" class="link-none">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="sidebar p-6">
+      <h4 class="text-bold">COMPONENTS</h4>
+      <ul class="sidebar-components">
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="alerts.html">ALERT</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="avatars.html">AVATARS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="badges.html">BADGES</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="buttons.html">BUTTONS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="cards.html">CARDS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="grids.html">GRIDS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="images.html">IMAGES</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="inputs.html">INPUT</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="lists.html">LISTS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="modals.html">MODALS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="navigation.html">NAVIGATION</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="ratings.html">RATINGS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6>
+            <a class="link-none" href="text-utilities.html">TEXT UTILITIES</a>
+          </h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="toasts.html">TOASTS</a></h6>
+        </li>
+      </ul>
+    </div>
+    <div class="main-content p-5">
+      <div class="component-details">
+        <h3 class="text-bold mb-5">ALERTS</h3>
+        <p class="txt-xsm mb-5">
+          Alerts : Alerts are used to display a short message for the user.
+        </p>
+        <h5 class="mb-4">COMPONENT DEMO</h5>
+        <p class="txt-sm">NORMAL ALERTS:</p>
+        <div class="component-demonstration-column p-6">
+          <!-- Primary alert component -->
+          <div class="alert alert-primary p-4">
+            <span>This is a primary alert</span>
+          </div>
+
+          <!-- Success alert component -->
+          <div class="alert alert-success p-4">
+            <span>This is a success alert</span>
+          </div>
+
+          <!-- Warning alert component -->
+          <div class="alert alert-warning p-4">
+            <span>This is a warning alert</span>
+          </div>
+
+          <!-- Error alert component -->
+          <div class="alert alert-error p-4">
+            <span>This is an error alert</span>
+          </div>
+
+          <!-- Info alert component -->
+          <div class="alert alert-info p-4">
+            <span>This is an info alert</span>
+          </div>
         </div>
-
-        <ul class="nav-right p-4">
-          <li>
-            <a href="../index.html" class="link-none">HOME</a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/dev-enforced/Gentle_UI"
-              class="link-none"
-            >
-              <i class="fab fa-github fa-2x"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="sidebar p-6">
-        <h4 class="text-bold">COMPONENTS</h4>
-        <ul class="sidebar-components">
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="alerts.html">ALERT</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="avatars.html">AVATARS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="badges.html">BADGES</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="buttons.html">BUTTONS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="cards.html">CARDS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="grids.html">GRIDS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="images.html">IMAGES</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="inputs.html">INPUT</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="lists.html">LISTS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="modals.html">MODALS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="navigation.html">NAVIGATION</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="ratings.html">RATINGS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6>
-              <a class="link-none" href="text-utilities.html">TEXT UTILITIES</a>
-            </h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="toasts.html">TOASTS</a></h6>
-          </li>
-        </ul>
-      </div>
-      <div class="main-content p-5">
-        <div class="component-details">
-          <h3 class="text-bold mb-5">ALERTS</h3>
-          <p class="txt-xsm mb-5">
-            Alerts : Alerts are used to display a short message for the user.
-          </p>
-          <h5 class="mb-4">COMPONENT DEMO</h5>
-          <p class="txt-sm">NORMAL ALERTS:</p>
-          <div class="component-demonstration-column p-6">
-            <!-- Primary alert component -->
-            <div class="alert alert-primary p-4">
-              <span>This is a primary alert</span>
-            </div>
-
-            <!-- Success alert component -->
-            <div class="alert alert-success p-4">
-              <span>This is a success alert</span>
-            </div>
-
-            <!-- Warning alert component -->
-            <div class="alert alert-warning p-4">
-              <span>This is a warning alert</span>
-            </div>
-
-            <!-- Error alert component -->
-            <div class="alert alert-error p-4">
-              <span>This is an error alert</span>
-            </div>
-
-            <!-- Info alert component -->
-            <div class="alert alert-info p-4">
-              <span>This is an info alert</span>
-            </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F0d8170b713d2bc59f69b59e00f2586905f8c5a05%2Fdocumentation%2Falerts.html%23L80-L103&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <p class="txt-sm">ALERTS WITH ICONS</p>
+        <div class="component-demonstration-column p-6">
+          <!-- Primary alert with icon -->
+          <div class="alert alert-primary p-4">
+            <span>
+              <i class="fas fa-star px-3"></i>
+              This is a primary alert
+            </span>
           </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F0d8170b713d2bc59f69b59e00f2586905f8c5a05%2Fdocumentation%2Falerts.html%23L80-L103&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+
+          <!-- Success alert component with icon -->
+          <div class="alert alert-success p-4">
+            <span>
+              <i class="fas fa-check px-3"></i>
+              This is a success alert
+            </span>
           </div>
-          <p class="txt-sm">ALERTS WITH ICONS</p>
-          <div class="component-demonstration-column p-6">
-            <!-- Primary alert with icon -->
-            <div class="alert alert-primary p-4">
-              <span>
-                <i class="fas fa-star px-3"></i>
-                This is a primary alert
-              </span>
-            </div>
 
-            <!-- Success alert component with icon -->
-            <div class="alert alert-success p-4">
-              <span>
-                <i class="fas fa-check px-3"></i>
-                This is a success alert
-              </span>
-            </div>
-
-            <!-- Warning alert component with icon -->
-            <div class="alert alert-warning p-4">
-              <span>
-                <i class="fas fa-exclamation px-3"></i>
-                This is a warning alert
-              </span>
-            </div>
-
-            <!-- Error alert component with icon -->
-            <div class="alert alert-error p-4">
-              <span>
-                <i class="fas fa-exclamation-triangle px-3"></i>
-                This is an error alert
-              </span>
-            </div>
-
-            <!-- Info alert component with icon -->
-            <div class="alert alert-info p-4">
-              <span>
-                <i class="fas fa-info-circle px-3"></i>
-                This is an info alert
-              </span>
-            </div>
+          <!-- Warning alert component with icon -->
+          <div class="alert alert-warning p-4">
+            <span>
+              <i class="fas fa-exclamation px-3"></i>
+              This is a warning alert
+            </span>
           </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Falerts.html%23L110-L148&style=atom-one-dark&showBorder=on&showCopy=on"></script>
-          </div>
-          <p class="txt-sm">DISMISSABLE ALERTS</p>
-          <div class="component-demonstration-column p-6">
-            <!-- Primary dismissable alert component with icon -->
-            <div class="alert-dismissable alert-primary p-4">
-              <span>
-                <i class="fas fa-star px-3"></i>
-                This is a primary alert
-              </span>
-              <i
-                class="far fa-times-circle fa-2x close-icon text-cursor-pointer"
-              ></i>
-            </div>
 
-            <!-- Success dismissable alert component with icon -->
-            <div class="alert-dismissable alert-success p-4">
-              <span>
-                <i class="fas fa-check px-3"></i>
-                This is a success alert
-              </span>
-              <i
-                class="far fa-times-circle fa-2x close-icon text-cursor-pointer"
-              ></i>
-            </div>
-
-            <!-- Warning dismissable alert component with icon -->
-            <div class="alert-dismissable alert-warning p-4">
-              <span>
-                <i class="fas fa-exclamation px-3"></i>
-                This is a warning alert
-              </span>
-              <i
-                class="far fa-times-circle fa-2x close-icon text-cursor-pointer"
-              ></i>
-            </div>
-
-            <!-- Error dismissable alert with icon -->
-            <div class="alert-dismissable alert-error p-4">
-              <span>
-                <i class="fas fa-exclamation-triangle px-3"></i>
-                This is an error alert
-              </span>
-              <i
-                class="far fa-times-circle fa-2x close-icon text-cursor-pointer"
-              ></i>
-            </div>
-
-            <!-- Info dismissable alert with icon -->
-            <div class="alert-dismissable alert-info p-4">
-              <span>
-                <i class="fas fa-info-circle px-3"></i>
-                This is an info alert
-              </span>
-              <i
-                class="far fa-times-circle fa-2x close-icon text-cursor-pointer"
-              ></i>
-            </div>
+          <!-- Error alert component with icon -->
+          <div class="alert alert-error p-4">
+            <span>
+              <i class="fas fa-exclamation-triangle px-3"></i>
+              This is an error alert
+            </span>
           </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Falerts.html%23L156-L204&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+
+          <!-- Info alert component with icon -->
+          <div class="alert alert-info p-4">
+            <span>
+              <i class="fas fa-info-circle px-3"></i>
+              This is an info alert
+            </span>
           </div>
-          <p class="txt-sm">JS CODE FOR DISMISSABLE ALERTS:</p>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2Ffile-collection%2Fblob%2F346a8697c8acf4231552a3dc5bb582b5ce28e609%2Fdismissable-alert.js%23L1-L4&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Falerts.html%23L110-L148&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <p class="txt-sm">DISMISSABLE ALERTS</p>
+        <div class="component-demonstration-column p-6">
+          <!-- Primary dismissable alert component with icon -->
+          <div class="alert-dismissable alert-primary p-4">
+            <span>
+              <i class="fas fa-star px-3"></i>
+              This is a primary alert
+            </span>
+            <i class="far fa-times-circle fa-2x close-icon text-cursor-pointer"></i>
           </div>
+
+          <!-- Success dismissable alert component with icon -->
+          <div class="alert-dismissable alert-success p-4">
+            <span>
+              <i class="fas fa-check px-3"></i>
+              This is a success alert
+            </span>
+            <i class="far fa-times-circle fa-2x close-icon text-cursor-pointer"></i>
+          </div>
+
+          <!-- Warning dismissable alert component with icon -->
+          <div class="alert-dismissable alert-warning p-4">
+            <span>
+              <i class="fas fa-exclamation px-3"></i>
+              This is a warning alert
+            </span>
+            <i class="far fa-times-circle fa-2x close-icon text-cursor-pointer"></i>
+          </div>
+
+          <!-- Error dismissable alert with icon -->
+          <div class="alert-dismissable alert-error p-4">
+            <span>
+              <i class="fas fa-exclamation-triangle px-3"></i>
+              This is an error alert
+            </span>
+            <i class="far fa-times-circle fa-2x close-icon text-cursor-pointer"></i>
+          </div>
+
+          <!-- Info dismissable alert with icon -->
+          <div class="alert-dismissable alert-info p-4">
+            <span>
+              <i class="fas fa-info-circle px-3"></i>
+              This is an info alert
+            </span>
+            <i class="far fa-times-circle fa-2x close-icon text-cursor-pointer"></i>
+          </div>
+        </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2F2a41da32959826ee58e41a9c4dc79c89140f62d0%2Fdocumentation%2Falerts.html%23L156-L204&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <p class="txt-sm">JS CODE FOR DISMISSABLE ALERTS:</p>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2Ffile-collection%2Fblob%2F346a8697c8acf4231552a3dc5bb582b5ce28e609%2Fdismissable-alert.js%23L1-L4&style=atom-one-dark&showBorder=on&showCopy=on"></script>
         </div>
       </div>
     </div>
-    <script>
-      const closeIcon = document.querySelectorAll(".close-icon");
-      closeIcon.forEach((eachIcon) => {
-        eachIcon.addEventListener("click", (e) => {
-          e.target.parentElement.style.display = "none";
-        });
+  </div>
+  <script>
+    const closeIcon = document.querySelectorAll(".close-icon");
+    closeIcon.forEach((eachIcon) => {
+      eachIcon.addEventListener("click", (e) => {
+        e.target.parentElement.style.display = "none";
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>

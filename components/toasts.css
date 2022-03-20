@@ -1,4 +1,4 @@
-.snackbar__popup{
+.gentle-snackbar-popup{
     position: fixed;
     min-width:15rem;
     background-color: var(--dark-indicator);
@@ -9,21 +9,21 @@
     z-index:2;
     box-shadow: 4px 4px #212121;
 }
-.snackbar__text{
-    color:#ffffff;
+.gentle-snackbar-text{
+    color:var(--text-color);
     font-family: 'Roboto-slab',sans-serif;
 }
-.snackbar__actions{
+.snackbar-actions{
     display:flex;
     flex-direction: row;
     gap:1rem;
 }
-.snackbar__link{
+.gentle-snackbar-link{
     text-decoration: none;
     color:#af8ddd;
     border-radius:40px;
 }
-.snackbar__link:hover{
+.gentle-snackbar-link:hover{
     text-decoration: none;
 }
 .baseline{
@@ -43,10 +43,8 @@
     bottom:10%;
     gap:1rem;
 }
-.snackbar__stacked__actions{
-    margin-left: auto;
-}
-.close__icon{
-    color:wheat;
+
+.close-icon{
+    color:var(--text-color);
     border-radius: 50px;
 }
