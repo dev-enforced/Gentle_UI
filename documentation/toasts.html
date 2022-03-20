@@ -93,7 +93,68 @@
           </li>
         </ul>
       </div>
-      
+      <div class="main-content p-5">
+        <div class="component-details">
+          <h3 class="text-bold mb-5">TOASTS</h3>
+          <p class="mb-5">
+            Toast help display time-sensitive, real-time updates to users
+          </p>
+          <h5 class="mb-4">COMPONENT DEMO (click on the button to see the results)</h5>
+          <div class="component-demonstration p-6">
+            <button class="btn btn-secondary snackbar__button">BASELINE</button>
+            <button class="btn btn-secondary snackbar__button">LEADING</button>
+          </div>
+          <div class="snackbar__popup baseline">
+            <p class="snackbar__text">Can't send photos.Retry in 5 seconds.</p>
+            <div class="snackbar__actions">
+              <a class="snackbar__link" href="">UNDO</a>
+              <i class="fas fa-times close__icon"></i>
+            </div>
+          </div>
+          <div class="snackbar__popup leading">
+            <p class="snackbar__text">Your photo has been archived.</p>
+            <div class="snackbar__actions">
+              <a class="snackbar__link" href="">UNDO</a>
+              <i class="fas fa-times close__icon"></i>
+            </div>
+          </div>
+          <div class="code-demonstration">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdevelopment%2Fdocumentation%2Fgrids.html%23L121-L343&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+          </div>
+        </div>
+      </div>
     </div>
+    <script>
+      const btns = document.querySelectorAll(".snackbar__button");
+      const baselineSnackbar = document.querySelector(".baseline");
+      const leadingSnackbar = document.querySelector(".leading");
+      const stackedSnackbar = document.querySelector(".stacked");
+
+      function showSnackbar(snackbarType) {
+        if (snackbarType === "BASELINE") {
+          baselineSnackbar.style.display = "flex";
+          setTimeout(() => {
+            baselineSnackbar.style.display = "none";
+          }, 2000);
+        } else if (snackbarType === "LEADING") {
+          leadingSnackbar.style.display = "flex";
+          setTimeout(() => {
+            leadingSnackbar.style.display = "none";
+          }, 2000);
+        } else if (snackbarType === "STACKED") {
+          stackedSnackbar.style.display = "flex";
+          setTimeout(() => {
+            stackedSnackbar.style.display = "none";
+          }, 2000);
+        }
+      }
+
+      btns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          let btnType = btn.innerText;
+          showSnackbar(btnType);
+        });
+      });
+    </script>
   </body>
 </html>
