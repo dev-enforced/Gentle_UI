@@ -11,19 +11,21 @@ The website is responsive and can be accessed using devices of various screen si
 
 To start using the components in your project: Copy paste the stylesheet `<link>` into your head before all other stylesheets to load CSS.
 
-
 HTML
+
 ```
     <link rel="stylesheet" href="https://gentle-ui.netlify.app/gentle-imports.css">
 ```
 
 CSS
+
 ```
     @import url("https://gentle-ui.netlify.app/gentle-imports.css")
 ```
-    
+
 ## Deployment Status
- [![Netlify Status](https://api.netlify.com/api/v1/badges/7b36e178-fb6e-4c9d-abc7-4b39247a3c65/deploy-status)](https://gentle-ui.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7b36e178-fb6e-4c9d-abc7-4b39247a3c65/deploy-status)](https://gentle-ui.netlify.app/)
 
 ---
 
@@ -39,7 +41,7 @@ CSS
 
 [Documentation](https://gentle-ui.netlify.app/documentation/alerts.html)
 
-----
+---
 
 ## Components
 
@@ -53,5 +55,4 @@ CSS
 - [Input](https://gentle-ui.netlify.app/documentation/inputs.html)
 - [Lists](https://gentle-ui.netlify.app/documentation/lists.html)
 - [Navigation](https://gentle-ui.netlify.app/documentation/navigation.html)
-- [Text Utilities]
-
+- [Text Utilities](https://gentle-ui.netlify.app/documentation/text-utilities.html)
