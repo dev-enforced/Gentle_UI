@@ -53,5 +53,5 @@ CSS
 - [Input](https://gentle-ui.netlify.app/documentation/inputs.html)
 - [Lists](https://gentle-ui.netlify.app/documentation/lists.html)
 - [Navigation](https://gentle-ui.netlify.app/documentation/navigation.html)
-
+- [Text Utilities]
 
