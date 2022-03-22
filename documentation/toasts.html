@@ -86,8 +86,8 @@
                 </p>
                 <h5 class="mb-4">COMPONENT DEMO (click on the button to see the results)</h5>
                 <div class="component-demonstration p-6">
-                    <button class="btn btn-secondary">BASELINE</button>
-                    <button class="btn btn-secondary">LEADING</button>
+                    <button class="btn btn-secondary snackbar-button">BASELINE</button>
+                    <button class="btn btn-secondary snackbar-button">LEADING</button>
                 </div>
                 <div class="gentle-snackbar-popup baseline">
                     <p class="gentle-snackbar-text">Can't send photos.Retry in 5 seconds.</p>
@@ -111,7 +111,7 @@
         </div>
     </div>
     <script>
-        const btns = document.querySelectorAll(".snackbar__button");
+        const btns = document.querySelectorAll(".snackbar-button");
         const baselineSnackbar = document.querySelector(".baseline");
         const leadingSnackbar = document.querySelector(".leading");
         const stackedSnackbar = document.querySelector(".stacked");
