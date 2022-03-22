@@ -1,476 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Roshan J" />
-    <meta
-      name="description"
-      content="Gentle UI is a component library having pre built components with the motive of creating good UIs."
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500;600;700&display=swap"
-    />
-    <link rel="stylesheet" href="../gentle-imports.css" />
-    <link rel="stylesheet" href="documentation.css" />
-    <link rel="icon" href="https://img.icons8.com/stickers/100/000000/g.png " />
-    <title>Cards | Gentle UI</title>
-  </head>
 
-  <body>
-    <div class="documentation-layout">
-      <div class="navbar p-4">
-        <div class="nav-left p-4">
-          <img src="https://img.icons8.com/stickers/60/000000/g.png" />
-          <h5><a href="../index.html" class="link-none">Gentle UI</a></h5>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Roshan J" />
+  <meta name="description"
+    content="Gentle UI is a component library having pre built components with the motive of creating good UIs." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500;600;700&display=swap" />
+  <link rel="stylesheet" href="../gentle-imports.css" />
+  <link rel="stylesheet" href="documentation.css" />
+  <link rel="icon" href="https://img.icons8.com/stickers/100/000000/g.png " />
+  <title>Cards | Gentle UI</title>
+</head>
 
-        <ul class="nav-right p-4">
-          <li>
-            <a href="../index.html" class="link-none">HOME</a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/dev-enforced/Gentle_UI"
-              class="link-none"
-            >
-              <i class="fab fa-github fa-2x"></i>
-            </a>
-          </li>
-        </ul>
+<body>
+  <div class="documentation-layout">
+    <div class="navbar p-4">
+      <div class="nav-left p-4">
+        <img src="https://img.icons8.com/stickers/60/000000/g.png" />
+        <h5><a href="../index.html" class="link-none">Gentle UI</a></h5>
       </div>
-      <div class="sidebar p-6">
-        <h4 class="text-bold">COMPONENTS</h4>
-        <ul class="sidebar-components">
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="alerts.html">ALERT</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="avatars.html">AVATARS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="badges.html">BADGES</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="buttons.html">BUTTONS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="cards.html">CARDS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="grids.html">GRIDS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="images.html">IMAGES</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="inputs.html">INPUT</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="lists.html">LISTS</a></h6>
-          </li>
-          <li class="p-2 my-2">
-            <h6><a class="link-none" href="navigation.html">NAVIGATION</a></h6>
-          </li>
-        </ul>
-      </div>
-      <div class="main-content p-5">
-        <div class="component-details">
-          <h3 class="text-bold mb-5">Cards</h3>
-          <p class="txt-xsm mb-5">
-            Cards are a convenient means of displaying content composed of
-            different types of objects. They are also well-suited for presenting
-            similar objects whose size or supported actions can vary
-            considerably, like photos with captions of variable length.
-          </p>
-          <h5 class="mb-4">COMPONENT DEMO</h5>
-          <p class="txt-sm">Cards with Badges</p>
-          <div class="component-demonstration card-demo">
-            <!-- CARDS WITH BADGES -->
-            <div class="card card-vertical">
-              <!-- CARD HEADER -->
-              <div class="card-header">
-                <div class="card-badge card-badge-info">
-                  <span>TRENDING</span>
-                </div>
-                <div class="card-dismiss">
-                  <i class="far fa-times-circle card-dismiss-icon"></i>
-                </div>
-              </div>
 
-              <!-- CARD MEDIA -->
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
-                alt="Milk Packet"
-                class="card-media-img"
-              />
-
-              <!-- CARD CONTENT -->
-              <div class="card-content">
-                <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
-                <p class="card-details-subtitle">By Humpy A2</p>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nobis, blanditiis accusantium, ea neque sunt provident veniam
-                  error sint dolores quia soluta. Fugit reiciendis debitis
-                  expedita, quod dolor odio consequuntur ad!
-                </p>
-                <p class="card-pricing">
-                  <span class="card-price">₹600</span>
-                  <del class="card-original-price">₹1000</del>
-                  <span class="card-discount">40% off</span>
-                </p>
+      <ul class="nav-right p-4">
+        <li>
+          <a href="../index.html" class="link-none">HOME</a>
+        </li>
+        <li>
+          <a href="https://github.com/dev-enforced/Gentle_UI" class="link-none">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="sidebar p-6">
+      <h4 class="text-bold">COMPONENTS</h4>
+      <ul class="sidebar-components">
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="alerts.html">ALERT</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="avatars.html">AVATARS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="badges.html">BADGES</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="buttons.html">BUTTONS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="cards.html">CARDS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="grids.html">GRIDS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="images.html">IMAGES</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="inputs.html">INPUT</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="lists.html">LISTS</a></h6>
+        </li>
+        <li class="p-2 my-2">
+          <h6><a class="link-none" href="navigation.html">NAVIGATION</a></h6>
+        </li>
+      </ul>
+    </div>
+    <div class="main-content p-5">
+      <div class="component-details">
+        <h3 class="text-bold mb-5">Cards</h3>
+        <p class="txt-xsm mb-5">
+          Cards are a convenient means of displaying content composed of
+          different types of objects. They are also well-suited for presenting
+          similar objects whose size or supported actions can vary
+          considerably, like photos with captions of variable length.
+        </p>
+        <h5 class="mb-4">COMPONENT DEMO</h5>
+        <p class="txt-sm">Cards with Badges</p>
+        <div class="component-demonstration card-demo">
+          <!-- CARDS WITH BADGES -->
+          <div class="card card-vertical">
+            <!-- CARD HEADER -->
+            <div class="card-header">
+              <div class="card-badge card-badge-info">
+                <span>TRENDING</span>
               </div>
-
-              <!-- CARD ACTIONS -->
-              <div class="card-actions">
-                <button class="btn btn-warning btn-warning-hover">
-                  BUY NOW
-                </button>
-                <button class="btn btn-link btn-primary-hover">
-                  ADD TO CART
-                </button>
-                <div class="card-icon-action">
-                  <a class="link-none" href="#"
-                    ><i class="fas fa-heart wish-icon"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L95-L147&style=atom-one-dark&showBorder=on&showCopy=on"></script>
-          </div>
-          <p class="txt-sm">Cards With Dismiss</p>
-          <div class="component-demonstration card-demo">
-            <!-- CARDS WITH DISMISS ICON -->
-            <div class="card card-vertical">
-              <!-- CARD HEADER -->
-              <div class="card-header">
-                <div class="card-dismiss">
-                  <i class="far fa-times-circle card-dismiss-icon"></i>
-                </div>
-              </div>
-
-              <!-- CARD MEDIA -->
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
-                alt="Milk Packet"
-                class="card-media-img"
-              />
-
-              <!-- CARD CONTENT -->
-              <div class="card-content">
-                <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
-                <p class="card-details-subtitle">By Humpy A2</p>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nobis, blanditiis accusantium, ea neque sunt provident veniam
-                  error sint dolores quia soluta. Fugit reiciendis debitis
-                  expedita, quod dolor odio consequuntur ad!
-                </p>
-                <p class="card-pricing">
-                  <span class="card-price">₹600</span>
-                  <del class="card-original-price">₹1000</del>
-                  <span class="card-discount">40% off</span>
-                </p>
-              </div>
-
-              <!-- CARD ACTIONS -->
-              <div class="card-actions">
-                <button class="btn btn-warning btn-warning-hover">
-                  BUY NOW
-                </button>
-                <button class="btn btn-link btn-primary-hover">
-                  ADD TO CART
-                </button>
-                <div class="card-icon-action">
-                  <a class="link-none" href="#"
-                    ><i class="fas fa-heart wish-icon"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L153-L202&style=atom-one-dark&showBorder=on&showCopy=on"></script>
-          </div>
-          <p class="txt-sm">CARDS WITH TEXT OVERLAY</p>
-          <div class="component-demonstration card-demo">
-            <!-- CARDS WITH TEXT ON OVERLAY -->
-            <div class="card card-vertical card-overlay">
-              <!-- TEXT TO BE SHOWN ON CARD OVERLAY -->
-              <div class="overlay-text-container">
-                <div class="card-overlay-text">OUT OF STOCK</div>
-              </div>
-
-              <!-- CARD HEADER -->
-              <div class="card-header">
-                <div class="card-badge card-badge-info">
-                  <span>BESTSELLER</span>
-                </div>
-                <div class="card-dismiss">
-                  <i class="far fa-times-circle card-dismiss-icon"></i>
-                </div>
-              </div>
-
-              <!-- CARD MEDIA -->
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
-                alt="Milk packet"
-                class="card-media-img"
-              />
-
-              <!-- CARD CONTENT -->
-              <div class="card-content">
-                <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
-                <p class="card-details-subtitle">By Humpy A2</p>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nobis, blanditiis accusantium, ea neque sunt provident veniam
-                  error sint dolores quia soluta. Fugit reiciendis debitis
-                  expedita, quod dolor odio consequuntur ad!
-                </p>
-                <p class="card-pricing">
-                  <span class="card-price">₹600</span>
-                  <del class="card-original-price">₹1000</del>
-                  <span class="card-discount">40% off</span>
-                </p>
-              </div>
-
-              <!-- CARD ACTIONS -->
-              <div class="card-actions">
-                <button class="btn btn-warning btn-warning-hover">
-                  BUY NOW
-                </button>
-                <button class="btn btn-link btn-primary-hover">
-                  ADD TO CART
-                </button>
-                <div class="card-icon-action">
-                  <a class="link-none" href="#"
-                    ><i class="fas fa-heart wish-icon"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L208-L265&style=atom-one-dark&showBorder=on&showCopy=on"></script>
-          </div>
-          <p class="txt-sm">TEXT ONLY CARDS</p>
-          <div class="component-demonstration card-demo">
-            <!-- TEXT ONLY CARDS -->
-            <div class="card card-vertical">
-              <!-- CARD HEADER -->
-              <div class="card-header">
-                <div class="card-badge card-badge-info">
-                  <span>TRENDING</span>
-                </div>
-                <div class="card-dismiss">
-                  <i class="far fa-times-circle card-dismiss-icon"></i>
-                </div>
-              </div>
-
-              <!-- CARD CONTENT -->
-              <div class="card-content">
-                <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
-                <p class="card-details-subtitle">By Humpy A2</p>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nobis, blanditiis accusantium, ea neque sunt provident veniam
-                  error sint dolores quia soluta. Fugit reiciendis debitis
-                  expedita, quod dolor odio consequuntur ad!
-                </p>
-                <p class="card-pricing">
-                  <span class="card-price">₹600</span>
-                  <del class="card-original-price">₹1000</del>
-                  <span class="card-discount">40% off</span>
-                </p>
-              </div>
-
-              <!-- CARD ACTIONS -->
-              <div class="card-actions">
-                <button class="btn btn-warning btn-warning-hover">
-                  BUY NOW
-                </button>
-                <button class="btn btn-link btn-primary-hover">
-                  ADD TO CART
-                </button>
-                <div class="card-icon-action">
-                  <a class="link-none" href="#"
-                    ><i class="fas fa-heart wish-icon"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L271-L315&style=atom-one-dark&showBorder=on&showCopy=on"></script>
-          </div>
-          <p class="txt-sm">CARDS WITH BOX SHADOW</p>
-          <div class="component-demonstration">
-            <!-- CARDS WITH BOX SHADOW -->
-            <div class="card card-vertical card-shadow">
-              <!-- CARD HEADER -->
-              <div class="card-header">
-                <div class="card-badge card-badge-info">
-                  <span>TRENDING</span>
-                </div>
-                <div class="card-dismiss">
-                  <i class="far fa-times-circle card-dismiss-icon"></i>
-                </div>
-              </div>
-
-              <!-- CARD MEDIA -->
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
-                alt="Milk packet"
-                class="card-media-img"
-              />
-
-              <!-- CARD CONTENT -->
-              <div class="card-content">
-                <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
-                <p class="card-details-subtitle">By Humpy A2</p>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nobis, blanditiis accusantium, ea neque sunt provident veniam
-                  error sint dolores quia soluta. Fugit reiciendis debitis
-                  expedita, quod dolor odio consequuntur ad!
-                </p>
-                <p class="card-pricing">
-                  <span class="card-price">₹600</span>
-                  <del class="card-original-price">₹1000</del>
-                  <span class="card-discount">40% off</span>
-                </p>
-              </div>
-
-              <!-- CARD ACTIONS -->
-              <div class="card-actions">
-                <button class="btn btn-warning btn-warning-hover">
-                  BUY NOW
-                </button>
-                <button class="btn btn-link btn-primary-hover">
-                  ADD TO CART
-                </button>
-                <div class="card-icon-action">
-                  <a class="link-none" href="#"
-                    ><i class="fas fa-heart wish-icon"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L321-L373&style=atom-one-dark&showBorder=on&showCopy=on"></script>
-          </div>
-          <p class="txt-sm">
-            HORIZONTAL CARD(when viewed on phone gets converted to vertical
-            format)
-          </p>
-          <div class="component-demonstration card-demo">
-            <!-- HORIZONTAL CARD-->
-            <div class="card card-horizontal">
-              <div class="card-badge card-badge-success card-horizontal-badge">
-                <span>IN STOCK</span>
-              </div>
-              <div class="card-dismiss card-horizontal-dismiss">
+              <div class="card-dismiss">
                 <i class="far fa-times-circle card-dismiss-icon"></i>
               </div>
-              <!-- CARD MEDIA -->
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
-                class="card-media-img card-horizontal-media-img"
-                alt="Milk Packet"
-              />
+            </div>
 
-              <!-- CARD CONTENT -->
-              <div class="card-content card-content-horizontal">
-                <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
-                <p class="card-details-subtitle">By Humpy A2</p>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nobis, blanditiis accusantium, ea neque sunt provident veniam
-                  error sint dolores quia soluta. Fugit reiciendis debitis
-                  expedita, quod dolor odio consequuntur ad!
-                </p>
-                <p class="card-pricing">
-                  <span class="card-price">₹600</span>
-                  <del class="card-original-price">₹1000</del>
-                  <span class="card-discount">40% off</span>
-                </p>
-                <div class="card-actions">
-                  <button class="btn btn-warning btn-warning-hover">
-                    BUY NOW
-                  </button>
-                  <button class="btn btn-link btn-primary-hover">
-                    ADD TO CART
-                  </button>
-                  <div class="card-icon-action">
-                    <a class="link-none" href="#"
-                      ><i class="fas fa-heart wish-icon"></i
-                    ></a>
-                    <a class="link-none" href="#"
-                      ><i class="fas fa-share wish-icon"></i
-                    ></a>
-                  </div>
-                </div>
+            <!-- CARD MEDIA -->
+            <img loading="lazy"
+              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
+              alt="Milk Packet" class="card-media-img" />
+
+            <!-- CARD CONTENT -->
+            <div class="card-content">
+              <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
+              <p class="card-details-subtitle">By Humpy A2</p>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nobis, blanditiis accusantium, ea neque sunt provident veniam
+                error sint dolores quia soluta. Fugit reiciendis debitis
+                expedita, quod dolor odio consequuntur ad!
+              </p>
+              <p class="card-pricing">
+                <span class="card-price">₹600</span>
+                <del class="card-original-price">₹1000</del>
+                <span class="card-discount">40% off</span>
+              </p>
+            </div>
+
+            <!-- CARD ACTIONS -->
+            <div class="card-actions">
+              <button class="btn btn-warning btn-warning-hover">
+                BUY NOW
+              </button>
+              <button class="btn btn-link btn-primary-hover">
+                ADD TO CART
+              </button>
+              <div class="card-icon-action">
+                <a class="link-none" href="#"><i class="fas fa-heart wish-icon"></i></a>
               </div>
             </div>
           </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L382-L431&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L95-L147&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <p class="txt-sm">Cards With Dismiss</p>
+        <div class="component-demonstration card-demo">
+          <!-- CARDS WITH DISMISS ICON -->
+          <div class="card card-vertical">
+            <!-- CARD HEADER -->
+            <div class="card-header">
+              <div class="card-dismiss">
+                <i class="far fa-times-circle card-dismiss-icon"></i>
+              </div>
+            </div>
+
+            <!-- CARD MEDIA -->
+            <img loading="lazy"
+              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
+              alt="Milk Packet" class="card-media-img" />
+
+            <!-- CARD CONTENT -->
+            <div class="card-content">
+              <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
+              <p class="card-details-subtitle">By Humpy A2</p>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nobis, blanditiis accusantium, ea neque sunt provident veniam
+                error sint dolores quia soluta. Fugit reiciendis debitis
+                expedita, quod dolor odio consequuntur ad!
+              </p>
+              <p class="card-pricing">
+                <span class="card-price">₹600</span>
+                <del class="card-original-price">₹1000</del>
+                <span class="card-discount">40% off</span>
+              </p>
+            </div>
+
+            <!-- CARD ACTIONS -->
+            <div class="card-actions">
+              <button class="btn btn-warning btn-warning-hover">
+                BUY NOW
+              </button>
+              <button class="btn btn-link btn-primary-hover">
+                ADD TO CART
+              </button>
+              <div class="card-icon-action">
+                <a class="link-none" href="#"><i class="fas fa-heart wish-icon"></i></a>
+              </div>
+            </div>
           </div>
-          <p class="txt-sm">VERTICAL CARD</p>
-          <div class="component-demonstration card-demo">
-            <!-- VERTICAL CARD -->
-            <div class="card card-vertical">
-              <!-- CARD HEADER -->
-              <div class="card-header">
-                <div class="card-badge card-badge-success">
-                  <span>IN STOCK</span>
-                </div>
-                <div class="card-dismiss">
-                  <i class="far fa-times-circle card-dismiss-icon"></i>
-                </div>
-              </div>
-              <!-- CARD IMAGE -->
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
-                alt="Milk packet"
-                class="card-media-img"
-              />
+        </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L153-L202&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <p class="txt-sm">CARDS WITH TEXT OVERLAY</p>
+        <div class="component-demonstration card-demo">
+          <!-- CARDS WITH TEXT ON OVERLAY -->
+          <div class="card card-vertical card-overlay">
+            <!-- TEXT TO BE SHOWN ON CARD OVERLAY -->
+            <div class="overlay-text-container">
+              <div class="card-overlay-text">OUT OF STOCK</div>
+            </div>
 
-              <!-- CARD CONTENT -->
-              <div class="card-content">
-                <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
-                <p class="card-details-subtitle">By Humpy A2</p>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nobis, blanditiis accusantium, ea neque sunt provident veniam
-                  error sint dolores quia soluta. Fugit reiciendis debitis
-                  expedita, quod dolor odio consequuntur ad!
-                </p>
-                <p class="card-pricing">
-                  <span class="card-price">₹600</span>
-                  <del class="card-original-price">₹1000</del>
-                  <span class="card-discount">40% off</span>
-                </p>
+            <!-- CARD HEADER -->
+            <div class="card-header">
+              <div class="card-badge card-badge-info">
+                <span>BESTSELLER</span>
               </div>
+              <div class="card-dismiss">
+                <i class="far fa-times-circle card-dismiss-icon"></i>
+              </div>
+            </div>
 
-              <!-- CARD ACTIONS -->
+            <!-- CARD MEDIA -->
+            <img loading="lazy"
+              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
+              alt="Milk packet" class="card-media-img" />
+
+            <!-- CARD CONTENT -->
+            <div class="card-content">
+              <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
+              <p class="card-details-subtitle">By Humpy A2</p>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nobis, blanditiis accusantium, ea neque sunt provident veniam
+                error sint dolores quia soluta. Fugit reiciendis debitis
+                expedita, quod dolor odio consequuntur ad!
+              </p>
+              <p class="card-pricing">
+                <span class="card-price">₹600</span>
+                <del class="card-original-price">₹1000</del>
+                <span class="card-discount">40% off</span>
+              </p>
+            </div>
+
+            <!-- CARD ACTIONS -->
+            <div class="card-actions">
+              <button class="btn btn-warning btn-warning-hover">
+                BUY NOW
+              </button>
+              <button class="btn btn-link btn-primary-hover">
+                ADD TO CART
+              </button>
+              <div class="card-icon-action">
+                <a class="link-none" href="#"><i class="fas fa-heart wish-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L208-L265&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <p class="txt-sm">TEXT ONLY CARDS</p>
+        <div class="component-demonstration card-demo">
+          <!-- TEXT ONLY CARDS -->
+          <div class="card card-vertical">
+            <!-- CARD HEADER -->
+            <div class="card-header">
+              <div class="card-badge card-badge-info">
+                <span>TRENDING</span>
+              </div>
+              <div class="card-dismiss">
+                <i class="far fa-times-circle card-dismiss-icon"></i>
+              </div>
+            </div>
+
+            <!-- CARD CONTENT -->
+            <div class="card-content">
+              <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
+              <p class="card-details-subtitle">By Humpy A2</p>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nobis, blanditiis accusantium, ea neque sunt provident veniam
+                error sint dolores quia soluta. Fugit reiciendis debitis
+                expedita, quod dolor odio consequuntur ad!
+              </p>
+              <p class="card-pricing">
+                <span class="card-price">₹600</span>
+                <del class="card-original-price">₹1000</del>
+                <span class="card-discount">40% off</span>
+              </p>
+            </div>
+
+            <!-- CARD ACTIONS -->
+            <div class="card-actions">
+              <button class="btn btn-warning btn-warning-hover">
+                BUY NOW
+              </button>
+              <button class="btn btn-link btn-primary-hover">
+                ADD TO CART
+              </button>
+              <div class="card-icon-action">
+                <a class="link-none" href="#"><i class="fas fa-heart wish-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L271-L315&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <p class="txt-sm">CARDS WITH BOX SHADOW</p>
+        <div class="component-demonstration">
+          <!-- CARDS WITH BOX SHADOW -->
+          <div class="card card-vertical card-shadow">
+            <!-- CARD HEADER -->
+            <div class="card-header">
+              <div class="card-badge card-badge-info">
+                <span>TRENDING</span>
+              </div>
+              <div class="card-dismiss">
+                <i class="far fa-times-circle card-dismiss-icon"></i>
+              </div>
+            </div>
+
+            <!-- CARD MEDIA -->
+            <img loading="lazy"
+              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
+              alt="Milk packet" class="card-media-img" />
+
+            <!-- CARD CONTENT -->
+            <div class="card-content">
+              <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
+              <p class="card-details-subtitle">By Humpy A2</p>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nobis, blanditiis accusantium, ea neque sunt provident veniam
+                error sint dolores quia soluta. Fugit reiciendis debitis
+                expedita, quod dolor odio consequuntur ad!
+              </p>
+              <p class="card-pricing">
+                <span class="card-price">₹600</span>
+                <del class="card-original-price">₹1000</del>
+                <span class="card-discount">40% off</span>
+              </p>
+            </div>
+
+            <!-- CARD ACTIONS -->
+            <div class="card-actions">
+              <button class="btn btn-warning btn-warning-hover">
+                BUY NOW
+              </button>
+              <button class="btn btn-link btn-primary-hover">
+                ADD TO CART
+              </button>
+              <div class="card-icon-action">
+                <a class="link-none" href="#"><i class="fas fa-heart wish-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L321-L373&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <p class="txt-sm">
+          HORIZONTAL CARD(when viewed on phone gets converted to vertical
+          format)
+        </p>
+        <div class="component-demonstration card-demo">
+          <!-- HORIZONTAL CARD-->
+          <div class="card card-horizontal">
+            <div class="card-badge card-badge-success card-horizontal-badge">
+              <span>IN STOCK</span>
+            </div>
+            <div class="card-dismiss card-horizontal-dismiss">
+              <i class="far fa-times-circle card-dismiss-icon"></i>
+            </div>
+            <!-- CARD MEDIA -->
+            <img loading="lazy"
+              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
+              class="card-media-img card-horizontal-media-img" alt="Milk Packet" />
+
+            <!-- CARD CONTENT -->
+            <div class="card-content card-content-horizontal">
+              <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
+              <p class="card-details-subtitle">By Humpy A2</p>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nobis, blanditiis accusantium, ea neque sunt provident veniam
+                error sint dolores quia soluta. Fugit reiciendis debitis
+                expedita, quod dolor odio consequuntur ad!
+              </p>
+              <p class="card-pricing">
+                <span class="card-price">₹600</span>
+                <del class="card-original-price">₹1000</del>
+                <span class="card-discount">40% off</span>
+              </p>
               <div class="card-actions">
                 <button class="btn btn-warning btn-warning-hover">
                   BUY NOW
@@ -479,74 +388,122 @@
                   ADD TO CART
                 </button>
                 <div class="card-icon-action">
-                  <a class="link-none" href="#"
-                    ><i class="fas fa-heart wish-icon"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <!-- VERTICAL CARD -->
-            <div class="card card-vertical">
-              <!-- CARD HEADER -->
-              <div class="card-header">
-                <div class="card-badge card-badge-success">
-                  <span>IN STOCK</span>
-                </div>
-                <div class="card-dismiss">
-                  <i class="far fa-times-circle card-dismiss-icon"></i>
-                </div>
-              </div>
-
-              <!-- CARD MEDIA -->
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
-                alt="Milk Packet"
-                class="card-media-img"
-              />
-
-              <!-- CARD CONTENT -->
-              <div class="card-content">
-                <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
-                <p class="card-details-subtitle">By Humpy A2</p>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nobis, blanditiis accusantium, ea neque sunt provident veniam
-                  error sint dolores quia soluta. Fugit reiciendis debitis
-                  expedita, quod dolor odio consequuntur ad!
-                </p>
-                <p class="card-pricing">
-                  <span class="card-price">₹600</span>
-                  <del class="card-original-price">₹1000</del>
-                  <span class="card-discount">40% off</span>
-                </p>
-              </div>
-
-              <!-- CARD ACTIONS -->
-              <div class="card-actions">
-                <button class="btn btn-warning btn-warning-hover">
-                  BUY NOW
-                </button>
-                <button class="btn btn-link btn-primary-hover">
-                  ADD TO CART
-                </button>
-                <div class="card-icon-action">
-                  <a class="link-none" href="#"
-                    ><i class="fas fa-heart wish-icon"></i
-                  ></a>
-                  <a class="link-none" href="#"
-                    ><i class="fas fa-share wish-icon"></i
-                  ></a>
+                  <a class="link-none" href="#"><i class="fas fa-heart wish-icon"></i></a>
+                  <a class="link-none" href="#"><i class="fas fa-share wish-icon"></i></a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="code-demonstration">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L437-L544&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L382-L431&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+        </div>
+        <p class="txt-sm">VERTICAL CARD</p>
+        <div class="component-demonstration card-demo">
+          <!-- VERTICAL CARD -->
+          <div class="card card-vertical">
+            <!-- CARD HEADER -->
+            <div class="card-header">
+              <div class="card-badge card-badge-success">
+                <span>IN STOCK</span>
+              </div>
+              <div class="card-dismiss">
+                <i class="far fa-times-circle card-dismiss-icon"></i>
+              </div>
+            </div>
+            <!-- CARD IMAGE -->
+            <img loading="lazy"
+              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
+              alt="Milk packet" class="card-media-img" />
+
+            <!-- CARD CONTENT -->
+            <div class="card-content">
+              <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
+              <p class="card-details-subtitle">By Humpy A2</p>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nobis, blanditiis accusantium, ea neque sunt provident veniam
+                error sint dolores quia soluta. Fugit reiciendis debitis
+                expedita, quod dolor odio consequuntur ad!
+              </p>
+              <p class="card-pricing">
+                <span class="card-price">₹600</span>
+                <del class="card-original-price">₹1000</del>
+                <span class="card-discount">40% off</span>
+              </p>
+            </div>
+
+            <!-- CARD ACTIONS -->
+            <div class="card-actions">
+              <button class="btn btn-warning btn-warning-hover">
+                BUY NOW
+              </button>
+              <button class="btn btn-link btn-primary-hover">
+                ADD TO CART
+              </button>
+              <div class="card-icon-action">
+                <a class="link-none" href="#"><i class="fas fa-heart wish-icon"></i></a>
+              </div>
+            </div>
           </div>
+
+          <!-- VERTICAL CARD -->
+          <div class="card card-vertical">
+            <!-- CARD HEADER -->
+            <div class="card-header">
+              <div class="card-badge card-badge-success">
+                <span>IN STOCK</span>
+              </div>
+              <div class="card-dismiss">
+                <i class="far fa-times-circle card-dismiss-icon"></i>
+              </div>
+            </div>
+
+            <!-- CARD MEDIA -->
+            <img loading="lazy"
+              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/nusnyjv4vv1teca0txre"
+              alt="Milk Packet" class="card-media-img" />
+
+            <!-- CARD CONTENT -->
+            <div class="card-content">
+              <h4 class="txt-bold card-details-title">Proteinated Milk</h4>
+              <p class="card-details-subtitle">By Humpy A2</p>
+              <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nobis, blanditiis accusantium, ea neque sunt provident veniam
+                error sint dolores quia soluta. Fugit reiciendis debitis
+                expedita, quod dolor odio consequuntur ad!
+              </p>
+              <p class="card-pricing">
+                <span class="card-price">₹600</span>
+                <del class="card-original-price">₹1000</del>
+                <span class="card-discount">40% off</span>
+              </p>
+            </div>
+
+            <!-- CARD ACTIONS -->
+            <div class="card-actions">
+              <button class="btn btn-warning btn-warning-hover">
+                BUY NOW
+              </button>
+              <button class="btn btn-link btn-primary-hover">
+                ADD TO CART
+              </button>
+              <div class="card-icon-action">
+                <a class="link-none" href="#"><i class="fas fa-heart wish-icon"></i></a>
+                <a class="link-none" href="#"><i class="fas fa-share wish-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="code-demonstration">
+          <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fdocumentation-layout%2Fdocumentation%2Fcards.html%23L437-L544&style=atom-one-dark&showBorder=on&showCopy=on"></script>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

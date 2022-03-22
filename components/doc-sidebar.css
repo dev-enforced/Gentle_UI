@@ -10,10 +10,9 @@
   align-items: center;
 }
 
-.sidebar-components li:hover{
+.sidebar-components li:hover {
   border-bottom: var(--alert-border-format);
-  border-bottom-color:var(--primary-color) ;
-  
+  border-bottom-color: var(--primary-color);
 }
 
 @media screen and (max-width: 768px) {
