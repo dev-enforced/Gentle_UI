@@ -56,3 +56,4 @@ CSS
 - [Lists](https://gentle-ui.netlify.app/documentation/lists.html)
 - [Navigation](https://gentle-ui.netlify.app/documentation/navigation.html)
 - [Text Utilities](https://gentle-ui.netlify.app/documentation/text-utilities.html)
+- [Toasts](https://gentle-ui.netlify.app/documentation/toasts.html)
