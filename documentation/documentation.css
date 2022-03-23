@@ -51,6 +51,14 @@
   background-color: var(--primary-bg);
 }
 
+.component-demonstration .gentle-modal-container {
+  position: relative;
+  background-color: transparent;
+  display: block;
+  z-index: unset;
+  max-width: 500px;
+}
+
 .card-demo {
   background-color: var(--bg-black);
   justify-content: center;
