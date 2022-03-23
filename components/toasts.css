@@ -19,9 +19,11 @@
   gap: 1rem;
 }
 .gentle-snackbar-link {
+  --toast-link-color:#af8ddd;
+  --link-border-radius:40px;
   text-decoration: none;
-  color: #af8ddd;
-  border-radius: 40px;
+  color: var(--toast-link-color);
+  border-radius: var(--link-border-radius);
 }
 .gentle-snackbar-link:hover {
   text-decoration: none;
@@ -43,7 +45,8 @@
   gap: 1rem;
 }
 
-.close-icon {
+.toast-close-icon {
+  --close-icon-border-radius:50px
   color: var(--text-color);
-  border-radius: 50px;
+  border-radius: var(--close-icon-border-radius);
 }
