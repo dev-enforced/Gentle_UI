@@ -1,0 +1,31 @@
+.gentle-ratings-container,
+.gentle-feedback-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: var(--border-rd-sm);
+  font-size: 1.5rem;
+  background-color: var(--warning-bg);
+}
+
+.gentle-feedback-container {
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.positive:hover {
+  color: var(--primary-color-hover);
+}
+.smile:hover {
+  color: var(--secondary-color-hover);
+}
+.meh:hover {
+  color: var(--warning-hover-color);
+}
+.frown:hover {
+  color: var(--secondary-color);
+}
+.angry:hover {
+  color: var(--error-hover-color);
+}
