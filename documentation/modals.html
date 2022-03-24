@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../gentle-imports.css" />
     <link rel="stylesheet" href="documentation.css" />
     <link rel="icon" href="https://img.icons8.com/stickers/100/000000/g.png " />
-    <title>Toasts | Gentle UI</title>
+    <title>Modals | Gentle UI</title>
 </head>
 
 <body>
@@ -86,38 +86,59 @@
         </div>
         <div class="main-content p-5">
             <div class="component-details">
-                <h3 class="text-bold mb-5">TOASTS</h3>
+                <h3 class="text-bold mb-5">MODALS</h3>
                 <p class="mb-5">
-                    Toast help display time-sensitive, real-time updates to users
+                    A modal is a small window that appears over the main window to grab
+                    the user's attention. A modal displays important information on
+                    actions that the user has to perform before working with the main
+                    window.
                 </p>
-                <h5 class="mb-4">COMPONENT DEMO (click on the button to see the results)</h5>
+                <h5 class="mb-4">COMPONENT DEMO</h5>
                 <div class="component-demonstration p-6">
-                    <button class="btn btn-secondary snackbar-button">BASELINE</button>
-                    <button class="btn btn-secondary snackbar-button">LEADING</button>
-                </div>
-                <div class="gentle-snackbar-popup baseline">
-                    <p class="gentle-snackbar-text">Can't send photos.Retry in 5 seconds.</p>
-                    <div class="gentle-snackbar-actions">
-                        <a class="gentle-snackbar-link" href="">UNDO</a>
-                        <i class="fas fa-times toast-close-icon"></i>
+                    <!-- MODAL CONTAINER -->
+                    <div class="gentle-modal-container active-modal">
+                        <div class="gentle-modal-content p-4">
+                            <div class="modal-text py-4">Are you sure?</div>
+                            <button class="btn btn-icon btn-primary btn-modal-close">
+                                <span>
+                                    <i class="fas fa-times"></i>
+                                </span>
+                            </button>
+                            <div class="modal-action-buttons">
+                                <button class="btn btn-primary px-3 py-4 txt-xs">
+                                    Cancel
+                                </button>
+                                <button class="btn btn-primary px-3 py-4 txt-xs">
+                                    Go ahead
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="gentle-snackbar-popup leading">
-                    <p class="gentle-snackbar-text">Your photo has been archived.</p>
-                    <div class="gentle-snackbar-actions">
-                        <a class="gentle-snackbar-link" href="">UNDO</a>
-                        <i class="fas fa-times toast-close-icon"></i>
-                    </div>
-                </div>
+
+                <button class="btn btn-success p-5 my-5 show-modal">SHOW DEMO</button>
                 <div class="code-demonstration">
                     <script
-                        src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fe061c3e3bc6ce355711cf5a3522fc37155e21b5f%2Fdocumentation%2Ftoasts.html%23L98-L111&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+                        src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdev-enforced%2FGentle_UI%2Fblob%2Fratings-textutils-snackbar-modals%2Fdocumentation%2Fmodals.html%23L99-L116&style=atom-one-dark&showBorder=on&showCopy=on"></script>
+                </div>
+                <div class="gentle-modal-container demo-modal active-modal">
+                    <div class="gentle-modal-content p-4">
+                        <div class="modal-text py-4">Click on Close Icon to close</div>
+                        <button class="btn btn-icon btn-primary btn-modal-close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <div class="modal-action-buttons">
+                            <button class="btn btn-primary px-3 py-4 txt-xs">Cancel</button>
+                            <button class="btn btn-primary px-3 py-4 txt-xs">
+                                Go ahead
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="scripts/toasts.js">
-    </script>
+    <script src="scripts/modals.js"></script>
 </body>
 
 </html>
