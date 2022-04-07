@@ -100,7 +100,15 @@
                 <h5 class="my-4">COMPONENT DEMO</h5>
                 <div class="component-demonstration">
                     <!-- INPUT SLIDERS PROVIDED BY GENTLE UI -->
-                    <input type="range" min="1" max="100" value="1" class="gentle-input-slider" id="slide-range">
+                    <div class="slider-container">
+                        <input type="range" min="1" max="100" value="1" class="gentle-input-slider" id="slide-range">
+                        <datalist class="g-flex-row g-flex-space-between">
+                            <option value="2k">2k</option>
+                            <option value="4k">4k</option>
+                            <option value="6k">6k</option>
+                            <option value="8k">8k</option>
+                        </datalist>
+                    </div>
                 </div>
                 <div class="code-demonstration">
                     <script
