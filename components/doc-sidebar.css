@@ -26,14 +26,12 @@
     top: 0;
     z-index: 5;
   }
-  .sidebar h4 {
+  .sidebar-heading {
     padding-top: 1rem;
   }
   .sidebar-components {
-    flex-flow: column;
-    height: 90vh;
-    width: 100%;
-    overflow-y: auto;
+    flex-direction: column;
+    justify-content: start;
   }
   .rotation {
     transform: rotate(180deg);
