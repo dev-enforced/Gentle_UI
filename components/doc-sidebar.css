@@ -31,7 +31,7 @@
   }
   .sidebar-components {
     flex-direction: column;
-    justify-content: start;
+    align-items: start;
   }
   .rotation {
     transform: rotate(180deg);
