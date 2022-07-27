@@ -15,12 +15,14 @@
   border-bottom-color: var(--primary-color);
 }
 
-.sidebar-hidden,
 .toggle-list {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
+  .sidebar-hidden{
+    display: none;
+  }
   .sidebar {
     position: sticky;
     top: 0;
