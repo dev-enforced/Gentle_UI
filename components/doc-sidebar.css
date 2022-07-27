@@ -25,7 +25,7 @@
   }
   .sidebar {
     position: sticky;
-    top: 0;
+    top: 10px;
     z-index: 5;
   }
   .sidebar-heading {
