@@ -15,8 +15,39 @@
   border-bottom-color: var(--primary-color);
 }
 
+.sidebar-heading {
+  padding-right: 1rem;
+}
+
+.toggle-holder {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
+  .toggle-holder {
+    display: block;
+    transition: 0.4s;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+
+  .sidebar .text-bold {
+    padding-top: 1.5rem;
+  }
+
   .sidebar-components {
     flex-flow: row wrap;
+  }
+
+  .sidebar-hidden {
+    display: none;
+  }
+
+  .rotate {
+    transform: rotate(180deg);
   }
 }
