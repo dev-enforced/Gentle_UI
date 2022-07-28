@@ -57,6 +57,10 @@
   background-color: transparent;
 }
 
+.demo-modal{
+  visibility: hidden;
+}
+
 @media screen and (max-width: 480px) {
   .gentle-modal-content {
     min-width: 250px;
