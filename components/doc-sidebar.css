@@ -15,8 +15,33 @@
   border-bottom-color: var(--primary-color);
 }
 
+.toggle-list {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
+  .sidebar-hidden{
+    display: none;
+  }
+  .sidebar {
+    position: sticky;
+    top: 10px;
+    z-index: 5;
+  }
+  .sidebar-heading {
+    padding-top: 1rem;
+  }
   .sidebar-components {
-    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: start;
+    height: 200vh;
+    overflow-y: auto;
+  }
+  .rotation {
+    transform: rotate(180deg);
+  }
+  .toggle-list {
+    display: block;
+    transition: 0.4s;
   }
 }

@@ -11,7 +11,9 @@
   align-items: center;
   justify-content: center;
 }
-
+.demo-modal{
+  visibility: hidden;
+}
 .gentle-modal-container.active-modal {
   display: flex;
 }
